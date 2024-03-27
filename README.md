@@ -1,1 +1,1 @@
-# DMTG-One-ShotDifferentiableMulti-TaskGrouping
+# DMTG: One-Shot Differentiable Multi-Task Grouping

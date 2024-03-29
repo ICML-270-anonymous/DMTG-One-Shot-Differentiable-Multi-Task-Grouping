@@ -30,4 +30,6 @@
 # Evaluation error on Taskonomy-5
 We use **mIoU** (mean Intersection over Union) for semantic segmentation, **RMSE** after alignment (Root Mean Square Error after aligning the transformation and scale) for depth estimation,  **the percent of vectors with an angle less than 30 degrees** for surface normal, **F1-score** for keypoint detection, and **F1-score** for edge detection.
 
-![alt Evaluation error on Taskonomy-5](img/Evaluation_error.png "Evaluation error on Taskonomy-5")
+ <img src="img/Evaluation_error.png" width = "10000" alt="Evaluation error on Taskonomy-5" align=center />
+
+<!--![alt Evaluation error on Taskonomy-5](img/Evaluation_error.png "Evaluation error on Taskonomy-5")-->

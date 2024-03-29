@@ -7,7 +7,7 @@
 <!--# Evaluation error on Taskonomy-5 when K=5 -->
 <!--![alt Evaluation error on Taskonomy-5 when K=5](img/taskonomy_bar_error_k_5.png "Evaluation error on Taskonomy-5 when K=5") -->
 
-| Groups | Methods   | Depth Estimation | NormGain$_E$ (\%) | Surface Normal (\%) | NormGain$_E$ (\%) | Semantic Segmentation (\%) | NormGain$_E$ (\%) | Keypoint Detection (\%) | NormGain$_E$ (\%) | Edge Detection (\%) |  NormGain$_E$ (\%)     |
+<!--| Groups | Methods   | Depth Estimation | NormGain$_E$ (\%) | Surface Normal (\%) | NormGain$_E$ (\%) | Semantic Segmentation (\%) | NormGain$_E$ (\%) | Keypoint Detection (\%) | NormGain$_E$ (\%) | Edge Detection (\%) |  NormGain$_E$ (\%)     |
 |--------|-----------|------------------|----------|----------------|----------|-----------------------|----------|--------------------|----------|----------------|----------|
 |        | Naive MTL | 8.67E-03         | -        | 84.32          | -        | 48.21                 | -        | 76.08              | -        | 76.56          | -        |
 |        | STL       | 1.59E-05         | 99.82    | 84.28          | -0.05    | 37.88                 | -21.44   | 85.86              | 12.86    | 86.75          | 13.31    |
@@ -25,4 +25,9 @@
 |        | HOA       | 5.15E-03         | 40.59    | 84.39          | 0.08     | 48.46                 | 0.51     | 86.86              | 14.17    | 87.07          | 13.73    |
 |        | TAG       | 5.15E-03         | 40.59    | 83.56          | -0.90    | 47.25                 | -1.99    | 86.86              | 14.17    | 87.07          | 13.73    |
 |        | MTG-Net   | 2.04E-04         | 97.65    | 84.32          | 0.00     | 48.21                 | 0.00     | 84.47              | 11.04    | 85.98          | 12.30    |
-|        | Ours      | **1.19E-07**         | **100.00**   | **84.40**          | **0.09**     | **49.85**                 | **3.40**     | **86.90**              | **14.23**    | **87.94**          | **14.86**    |
+|        | Ours      | **1.19E-07**         | **100.00**   | **84.40**          | **0.09**     | **49.85**                 | **3.40**     | **86.90**              | **14.23**    | **87.94**          | **14.86**    |-->
+
+# Evaluation error on Taskonomy-5
+We use **mIoU** (mean Intersection over Union) for semantic segmentation, **RMSE** after alignment (Root Mean Square Error after aligning the transformation and scale) for depth estimation,  **the percent of vectors with an angle less than 30 degrees** for surface normal, **F1-score** for keypoint detection, and **F1-score** for edge detection.
+
+![alt Evaluation error on Taskonomy-5](img/Evaluation_error.png "Evaluation error on Taskonomy-5")
